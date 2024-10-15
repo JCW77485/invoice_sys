@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>My GitHub Page</title>
-       <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-       <h1>Welcome to My GitHub Page!</h1>
-       <p>This is a simple website hosted on GitHub Pages.</p>
-   </body>
-   </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <div class="input-box">
+                <h2>Sign In</h2>
+                <input type="text" required>
+                <span>Username</span>
+                <i></i>
+            </div>
+            <div class="input-box">
+                <input type="password" required>
+                <span>Enter Password</span>
+                <i></i>
+            </div>
+            <input type="submit" value="Login">
+            <div class="links">
+                <a href="#">Forgot Password?</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
