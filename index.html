@@ -2,30 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <meta http-equiv="refresh" content="0; url=index.php">
+    <title>Redirecting...</title>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    
-    <div id="content"></div>
-
-    <script>
-        // Fetch the content of index.php
-        fetch('index.php')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.text();
-            })
-            .then(data => {
-                // Insert the fetched content into the div
-                document.getElementById('content').innerHTML = data;
-            })
-            .catch(error => {
-                console.error('There was a problem with the fetch operation:', error);
-            });
-    </script>
+    <p>If you are not redirected, <a href="index.php">click here</a>.</p>
 </body>
 </html>
